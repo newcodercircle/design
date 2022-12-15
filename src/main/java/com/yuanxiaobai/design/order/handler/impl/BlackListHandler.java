@@ -18,7 +18,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class BlackListHandler implements IHandler<String, String> {
     /**
-     * 处理加签逻辑
+     * 黑名单验证
      * @param s
      * @return
      */

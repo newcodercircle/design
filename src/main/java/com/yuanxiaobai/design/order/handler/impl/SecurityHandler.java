@@ -18,7 +18,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class SecurityHandler implements IHandler<String, String> {
     /**
-     * 签名验证
+     * 安全验证
      * @param s
      * @return
      */
